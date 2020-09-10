@@ -1,0 +1,105 @@
+#static-dashboard {
+    /* max-width: 100%; */
+    height: auto; 
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+#static-chart {
+    /* max-width: 100%; */
+    height: auto; 
+}
+#dynamic-dashboard {
+  /* max-width: 100%; */
+  height: auto; 
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+#dynamic-chart {
+  /* max-width: 100%; */
+  height: auto; 
+}
+
+
+/* Future-feature */
+#rangeDiv {
+    /* display: none; */
+    padding-top: 10px;
+}
+
+/* .btn-graph.active
+{
+  color: black !important;
+  background-color: gray !important;
+  border-color: gray !important;
+} */
+
+.graph-toggles{
+  display: flex;
+  border: 1px solid #4e73df;
+  border-radius: 5px;
+  background: #4e73df;
+}
+
+.graph-toggle-label{
+  background-color: grey;
+  color: #ffffff; 
+  padding: 10px; 
+  width: 110px; 
+  text-align: center;
+  margin-bottom: 0px; 
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.graph-toggle-input{
+  display: contents;
+}
+
+.graph-toggles input:checked + label{ 
+  background-color: #4e73df;
+  border-color: #4e73df;
+  color: #ffffff;
+}
+
+.graph-toggles input:checked+:hover{
+  background: #2653d4;
+}
+
+/* PrintToPDF */
+#content-wrapper{
+  overflow-y: hidden;
+}
+#printDiv{
+  visibility: hidden; 
+}
+@media print {
+	body * {
+	  visibility: hidden;
+	}
+	#printDiv, #printDiv * {
+	  visibility: visible; display: block; 
+	}
+	#chartDivPrint { 
+    transform: rotate(90deg);
+	  position: absolute;
+	  left: 150px;
+	  top: 450px;
+  }
+  #logoPrint{
+    transform: rotate(90deg);
+    position: absolute;
+    top: 800px;
+    left: 990px;
+  }
+  #para1{
+    font-size: xx-large;
+    font-weight: bold;
+    width: 250px;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 845px;
+    left: 830px;
+  }
+}
+/* PrintToPDF end */

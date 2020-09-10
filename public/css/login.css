@@ -1,0 +1,29 @@
+
+#loginContainer {
+    display: none;
+}
+.visoil-login-image {
+    background-image: url("https://source.unsplash.com/dBI_My696Rk");
+    height: 600px;
+    width: 800px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.visoil-register-image {
+    background-image: url("https://source.unsplash.com/ZzOa5G8hSPI");
+    height: 600px;
+    width: 800px;
+    background-position: center;
+    background-size: cover;
+}
+
+.visoil-password-image {
+    background-image: url("https://source.unsplash.com/IrRbSND5EUc");
+    height: 600px;
+    width: 800px;
+    background-position: center;
+    background-size: cover;
+}
+

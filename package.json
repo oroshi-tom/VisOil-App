@@ -1,0 +1,19 @@
+{
+  "name": "visoil-app",
+  "version": "1.0.0",
+  "description": "Drilling Data Graphical Display",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oroshi-tom/VisOil-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oroshi-tom/VisOil-App/issues"
+  },
+  "homepage": "https://github.com/oroshi-tom/VisOil-App#readme"
+}
