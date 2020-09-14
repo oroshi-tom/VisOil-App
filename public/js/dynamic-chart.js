@@ -157,7 +157,6 @@ google.charts.load('current', {
 // Draw empty chart even if no connection to database
 google.charts.setOnLoadCallback(drawDynamicChart);
 
-
 // Unhandled Rejection Error listener
 window.addEventListener('unhandledrejection', event => {
   alert("Error: " + event.reason.message);
